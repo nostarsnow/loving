@@ -1,21 +1,21 @@
 
-#app[data-v-288975d1] {
+#app[data-v-bd26cd6c] {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-html[data-v-288975d1] {
+html[data-v-bd26cd6c] {
     min-height: 100%;
 }
-.styleEditor[data-v-288975d1] {
+.styleEditor[data-v-bd26cd6c] {
     -webkit-backface-visibility: hidden;
 }
 
-.code[data-v-2ca90776] {
+.code[data-v-23b5cc2c] {
   display: none;
 }
 
-.htmlMode[data-v-2df95543] {
+.htmlMode[data-v-3539023c] {
   -webkit-animation: flip 2s;
           animation: flip 2s;
 }
@@ -44,7 +44,7 @@ html,body,#app{
   height:100%;
 }
 .resumeEditor {
-    background: url(../img/timg.1a8a778.jpg) #fff no-repeat center bottom / auto auto;
+    background: url(../../static/img/timg.1a8a778.jpg) #fff no-repeat center bottom / auto auto;
 }
 /**
  * webkit-scroll
