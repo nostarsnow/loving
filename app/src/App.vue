@@ -30,6 +30,8 @@ let getDateDiff = function(startDate, endDate) {
     return dates;
 }
 document.title += getDateDiff((new Date()).getFullYear() + '-' + ((new Date()).getMonth() + 1) + '-' + (new Date()).getDate(), '2016-09-15') + 1 + '天';
+
+var time = 35;
 export default {
     name: 'app',
     components: {
@@ -38,13 +40,13 @@ export default {
     },
     data() {
         return {
-            interval: 27,
+            interval: time,
             currentStyle: '',
             enableHtml: false,
             fullStyle: [
                 `/*
-* Hi。宝贝！
-* 这么久了。还没和宝贝说过我的工作呢！
+* Hi！
+* 这么久了。还没和你说过我的工作呢！
 * 我是个前端工程师。俗称程序员。网页相关。
 * 如这个页面。就是个什么也没有的网页。
 * 我的工作就是给这种空白的页面加点儿东西。
